@@ -1,0 +1,1095 @@
+{
+    "version": 1,
+    "demo": true,
+    "workspace": {
+        "name": "Bright Bean Café",
+        "industry": "Hospitality",
+        "timezone": "Europe/London"
+    },
+    "users": [
+        {
+            "id": "u_owner",
+            "name": "Raivis",
+            "email": "raivis@63.lv",
+            "password_hash": "$2y$12$hyZhvNwII4jZ07PY234flOGfij71VNjdze3iBw3QJSeUGOHi/BRwK",
+            "role": "owner",
+            "created_at": "2026-10-18T09:23:25Z"
+        }
+    ],
+    "channels": [
+        {
+            "id": "c_97e80b8cee61d25b",
+            "platform": "Instagram",
+            "name": "@brightbeancafe",
+            "followers": 12400,
+            "external_id": "",
+            "status": "demo",
+            "updated_at": "2026-10-18T09:23:25Z",
+            "source": "demo"
+        },
+        {
+            "id": "c_df3bea19b67977db",
+            "platform": "Facebook",
+            "name": "Bright Bean Café",
+            "followers": 8900,
+            "external_id": "",
+            "status": "demo",
+            "updated_at": "2026-10-18T09:23:25Z",
+            "source": "demo"
+        },
+        {
+            "id": "c_973da1d90b4c7503",
+            "platform": "X",
+            "name": "@brightbeancafe",
+            "followers": 4100,
+            "external_id": "",
+            "status": "demo",
+            "updated_at": "2026-10-18T09:23:25Z",
+            "source": "demo"
+        },
+        {
+            "id": "c_c0ba36b238e41b75",
+            "platform": "Google",
+            "name": "Bright Bean Café",
+            "followers": 0,
+            "external_id": "",
+            "status": "demo",
+            "updated_at": "2026-10-18T09:23:25Z",
+            "source": "demo"
+        },
+        {
+            "id": "c_913837ecf8e66172",
+            "platform": "Tripadvisor",
+            "name": "Bright Bean Café",
+            "followers": 0,
+            "external_id": "",
+            "status": "demo",
+            "updated_at": "2026-10-18T09:23:25Z",
+            "source": "demo"
+        },
+        {
+            "id": "c_638d141fb67f23b9",
+            "platform": "YouTube",
+            "name": "Bright Bean Café",
+            "followers": 2450,
+            "external_id": "",
+            "status": "demo",
+            "updated_at": "2026-10-18T09:23:25Z",
+            "source": "demo"
+        }
+    ],
+    "reviews": [
+        {
+            "id": "r_16e35dc114865fd4",
+            "author": "Sarah Mitchell",
+            "platform": "Google",
+            "rating": 5,
+            "text": "Amazing food and friendly staff! The atmosphere is perfect for catching up with friends.",
+            "sentiment": "positive",
+            "reply": "Thank you Sarah! We hope to see you soon.",
+            "status": "replied",
+            "created_at": "2026-10-18T08:23:25Z",
+            "source": "demo"
+        },
+        {
+            "id": "r_87f26e39aa669fa5",
+            "author": "Marcus Lee",
+            "platform": "Facebook",
+            "rating": 5,
+            "text": "Great coffee and such a cozy place. Will definitely be back!",
+            "sentiment": "positive",
+            "reply": "We love hearing that, Marcus!",
+            "status": "replied",
+            "created_at": "2026-10-18T08:23:25Z",
+            "source": "demo"
+        },
+        {
+            "id": "r_756e5bc2dba572fa",
+            "author": "Emma Carter",
+            "platform": "Yelp",
+            "rating": 3,
+            "text": "Good experience overall. The service was a bit slow but the coffee was delicious.",
+            "sentiment": "neutral",
+            "reply": "",
+            "status": "pending",
+            "created_at": "2026-10-17T06:23:25Z",
+            "source": "demo"
+        },
+        {
+            "id": "r_61942e9e3f7e9435",
+            "author": "Daniel Kim",
+            "platform": "Tripadvisor",
+            "rating": 5,
+            "text": "One of the best coffee spots in town. Highly recommend!",
+            "sentiment": "positive",
+            "reply": "Thank you for the kind words!",
+            "status": "replied",
+            "created_at": "2026-10-16T06:23:25Z",
+            "source": "demo"
+        },
+        {
+            "id": "r_0f2a650ff408b223",
+            "author": "Olivia Brown",
+            "platform": "Google",
+            "rating": 2,
+            "text": "Food was good but our order was incorrect and took a long time.",
+            "sentiment": "negative",
+            "reply": "",
+            "status": "pending",
+            "created_at": "2026-10-16T06:23:25Z",
+            "source": "demo"
+        },
+        {
+            "id": "r_51019aa96dc83c4b",
+            "author": "Aria Patel",
+            "platform": "Google",
+            "rating": 5,
+            "text": "Delicious flat white and excellent pastries.",
+            "sentiment": "positive",
+            "reply": "",
+            "status": "pending",
+            "created_at": "2026-10-15T06:23:25Z",
+            "source": "demo"
+        },
+        {
+            "id": "r_48deb6fa830b66c9",
+            "author": "Leo Wilson",
+            "platform": "Facebook",
+            "rating": 4,
+            "text": "Lovely spot with relaxed music and great lunch options.",
+            "sentiment": "positive",
+            "reply": "",
+            "status": "pending",
+            "created_at": "2026-10-14T06:23:25Z",
+            "source": "demo"
+        }
+    ],
+    "inbox": [
+        {
+            "id": "i_c6fa6fdadfb07138",
+            "author": "Alex Johnson",
+            "text": "Do you have gluten-free options?",
+            "platform": "Facebook",
+            "kind": "message",
+            "reply": "",
+            "status": "unread",
+            "created_at": "2026-10-18T09:13:25Z",
+            "source": "demo"
+        },
+        {
+            "id": "i_c06afa1faa100ed9",
+            "author": "Sophie Martin",
+            "text": "This looks amazing! 😍",
+            "platform": "Instagram",
+            "kind": "comment",
+            "reply": "",
+            "status": "unread",
+            "created_at": "2026-10-18T08:51:25Z",
+            "source": "demo"
+        },
+        {
+            "id": "i_2d54eb846319aac5",
+            "author": "Chris Taylor",
+            "text": "What are your opening hours on Sunday?",
+            "platform": "Facebook",
+            "kind": "message",
+            "reply": "",
+            "status": "unread",
+            "created_at": "2026-10-18T08:23:25Z",
+            "source": "demo"
+        },
+        {
+            "id": "i_41e2785e146494a0",
+            "author": "Priya Desai",
+            "text": "Loved our visit yesterday! Can’t wait to return.",
+            "platform": "X",
+            "kind": "mention",
+            "reply": "",
+            "status": "unread",
+            "created_at": "2026-10-18T07:23:25Z",
+            "source": "demo"
+        },
+        {
+            "id": "i_ba93abb13afa07fc",
+            "author": "Mark Wilson",
+            "text": "Do you offer loyalty cards?",
+            "platform": "Google",
+            "kind": "question",
+            "reply": "",
+            "status": "unread",
+            "created_at": "2026-10-18T05:23:25Z",
+            "source": "demo"
+        }
+    ],
+    "posts": [
+        {
+            "id": "p_dc4928b332a1f19e",
+            "title": "Morning Coffee Vibes",
+            "caption": "Start your day with a great cup of coffee ☕",
+            "platform": "Instagram",
+            "scheduled_at": "2026-10-18T09:00:00Z",
+            "status": "scheduled",
+            "media_id": "",
+            "published_url": "",
+            "created_at": "2026-10-18T09:23:25Z",
+            "source": "demo"
+        },
+        {
+            "id": "p_fbd17d3f2dca8c3f",
+            "title": "New Seasonal Menu",
+            "caption": "Fresh flavours, made with care. Explore our seasonal menu.",
+            "platform": "LinkedIn",
+            "scheduled_at": "2026-10-19T12:00:00Z",
+            "status": "scheduled",
+            "media_id": "",
+            "published_url": "",
+            "created_at": "2026-10-18T09:23:25Z",
+            "source": "demo"
+        },
+        {
+            "id": "p_dbec886eee4342eb",
+            "title": "Behind the Scenes",
+            "caption": "Meet the team making your favourite coffee.",
+            "platform": "TikTok",
+            "scheduled_at": "2026-10-20T15:00:00Z",
+            "status": "scheduled",
+            "media_id": "",
+            "published_url": "",
+            "created_at": "2026-10-18T09:23:25Z",
+            "source": "demo"
+        },
+        {
+            "id": "p_d0afb4ee0d2493b3",
+            "title": "Customer Stories",
+            "caption": "Your stories make our day!",
+            "platform": "Facebook",
+            "scheduled_at": "2026-10-21T17:00:00Z",
+            "status": "scheduled",
+            "media_id": "",
+            "published_url": "",
+            "created_at": "2026-10-18T09:23:25Z",
+            "source": "demo"
+        },
+        {
+            "id": "p_cfd763c1492d1d52",
+            "title": "Weekend Special",
+            "caption": "We have a weekend surprise coming soon.",
+            "platform": "X",
+            "scheduled_at": "2026-10-22T19:00:00Z",
+            "status": "draft",
+            "media_id": "",
+            "published_url": "",
+            "created_at": "2026-10-18T09:23:25Z",
+            "source": "demo"
+        }
+    ],
+    "media": [],
+    "videos": [
+        {
+            "id": "v_a95150eeb312e356",
+            "title": "The art of a perfect cappuccino",
+            "platform": "YouTube",
+            "url": "",
+            "external_id": "",
+            "views": 14230,
+            "likes": 851,
+            "comments": 64,
+            "shares": 170,
+            "published_at": "2026-10-16T09:23:25Z",
+            "source": "demo",
+            "updated_at": "2026-10-18T09:23:25Z"
+        },
+        {
+            "id": "v_c6e3a73187dd1446",
+            "title": "A day behind our coffee bar",
+            "platform": "Instagram",
+            "url": "",
+            "external_id": "",
+            "views": 28640,
+            "likes": 1542,
+            "comments": 108,
+            "shares": 308,
+            "published_at": "2026-10-13T09:23:25Z",
+            "source": "demo",
+            "updated_at": "2026-10-18T09:23:25Z"
+        },
+        {
+            "id": "v_a83685e9db8a5284",
+            "title": "How we roast our coffee beans",
+            "platform": "TikTok",
+            "url": "",
+            "external_id": "",
+            "views": 51400,
+            "likes": 3670,
+            "comments": 218,
+            "shares": 734,
+            "published_at": "2026-10-09T09:23:25Z",
+            "source": "demo",
+            "updated_at": "2026-10-18T09:23:25Z"
+        }
+    ],
+    "campaigns": [
+        {
+            "id": "k_1cceada13be42b77",
+            "name": "Autumn coffee launch",
+            "status": "active",
+            "platform": "Instagram",
+            "budget": 250,
+            "start_date": "2026-10-14",
+            "end_date": "2026-10-28",
+            "notes": "Promoting our new seasonal blends",
+            "source": "demo"
+        },
+        {
+            "id": "k_b824bc40d92deb58",
+            "name": "Local community stories",
+            "status": "draft",
+            "platform": "Facebook",
+            "budget": 100,
+            "start_date": "2026-10-18",
+            "end_date": "2026-11-01",
+            "notes": "Highlight customer experiences",
+            "source": "demo"
+        }
+    ],
+    "metrics": [
+        {
+            "date": "2026-07-21",
+            "reach": 3200,
+            "engagement": 1350,
+            "followers": 130,
+            "views": 900,
+            "source": "demo"
+        },
+        {
+            "date": "2026-07-22",
+            "reach": 4336,
+            "engagement": 1352,
+            "followers": 143,
+            "views": 1195,
+            "source": "demo"
+        },
+        {
+            "date": "2026-07-23",
+            "reach": 5227,
+            "engagement": 1275,
+            "followers": 156,
+            "views": 1479,
+            "source": "demo"
+        },
+        {
+            "date": "2026-07-24",
+            "reach": 5684,
+            "engagement": 1137,
+            "followers": 169,
+            "views": 1739,
+            "source": "demo"
+        },
+        {
+            "date": "2026-07-25",
+            "reach": 5629,
+            "engagement": 968,
+            "followers": 182,
+            "views": 1965,
+            "source": "demo"
+        },
+        {
+            "date": "2026-07-26",
+            "reach": 5106,
+            "engagement": 802,
+            "followers": 195,
+            "views": 2149,
+            "source": "demo"
+        },
+        {
+            "date": "2026-07-27",
+            "reach": 4276,
+            "engagement": 671,
+            "followers": 208,
+            "views": 2285,
+            "source": "demo"
+        },
+        {
+            "date": "2026-07-28",
+            "reach": 3374,
+            "engagement": 604,
+            "followers": 221,
+            "views": 2373,
+            "source": "demo"
+        },
+        {
+            "date": "2026-07-29",
+            "reach": 2651,
+            "engagement": 619,
+            "followers": 234,
+            "views": 2411,
+            "source": "demo"
+        },
+        {
+            "date": "2026-07-30",
+            "reach": 2318,
+            "engagement": 721,
+            "followers": 247,
+            "views": 2404,
+            "source": "demo"
+        },
+        {
+            "date": "2026-07-31",
+            "reach": 2487,
+            "engagement": 901,
+            "followers": 260,
+            "views": 2358,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-01",
+            "reach": 3149,
+            "engagement": 1137,
+            "followers": 273,
+            "views": 2283,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-02",
+            "reach": 4174,
+            "engagement": 1400,
+            "followers": 286,
+            "views": 2188,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-03",
+            "reach": 5341,
+            "engagement": 1655,
+            "followers": 299,
+            "views": 2088,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-04",
+            "reach": 6399,
+            "engagement": 1870,
+            "followers": 312,
+            "views": 1992,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-05",
+            "reach": 7119,
+            "engagement": 2018,
+            "followers": 325,
+            "views": 1913,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-06",
+            "reach": 7357,
+            "engagement": 2082,
+            "followers": 338,
+            "views": 1863,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-07",
+            "reach": 7086,
+            "engagement": 2060,
+            "followers": 351,
+            "views": 1851,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-08",
+            "reach": 6405,
+            "engagement": 1962,
+            "followers": 364,
+            "views": 1882,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-09",
+            "reach": 5513,
+            "engagement": 1812,
+            "followers": 377,
+            "views": 1963,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-10",
+            "reach": 4658,
+            "engagement": 1640,
+            "followers": 390,
+            "views": 2093,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-11",
+            "reach": 4083,
+            "engagement": 1481,
+            "followers": 403,
+            "views": 2271,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-12",
+            "reach": 3961,
+            "engagement": 1366,
+            "followers": 416,
+            "views": 2492,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-13",
+            "reach": 4352,
+            "engagement": 1322,
+            "followers": 429,
+            "views": 2748,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-14",
+            "reach": 5194,
+            "engagement": 1363,
+            "followers": 442,
+            "views": 3029,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-15",
+            "reach": 6311,
+            "engagement": 1489,
+            "followers": 455,
+            "views": 3324,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-16",
+            "reach": 7462,
+            "engagement": 1688,
+            "followers": 468,
+            "views": 3620,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-17",
+            "reach": 8397,
+            "engagement": 1936,
+            "followers": 481,
+            "views": 3906,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-18",
+            "reach": 8920,
+            "engagement": 2199,
+            "followers": 494,
+            "views": 4169,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-19",
+            "reach": 8933,
+            "engagement": 2446,
+            "followers": 507,
+            "views": 4400,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-20",
+            "reach": 8465,
+            "engagement": 2644,
+            "followers": 520,
+            "views": 4590,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-21",
+            "reach": 7663,
+            "engagement": 2768,
+            "followers": 533,
+            "views": 4733,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-22",
+            "reach": 6756,
+            "engagement": 2807,
+            "followers": 546,
+            "views": 4827,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-23",
+            "reach": 5996,
+            "engagement": 2761,
+            "followers": 559,
+            "views": 4872,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-24",
+            "reach": 5602,
+            "engagement": 2645,
+            "followers": 572,
+            "views": 4870,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-25",
+            "reach": 5702,
+            "engagement": 2485,
+            "followers": 585,
+            "views": 4829,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-26",
+            "reach": 6303,
+            "engagement": 2314,
+            "followers": 598,
+            "views": 4757,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-27",
+            "reach": 7291,
+            "engagement": 2164,
+            "followers": 611,
+            "views": 4665,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-28",
+            "reach": 8454,
+            "engagement": 2068,
+            "followers": 624,
+            "views": 4564,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-29",
+            "reach": 9541,
+            "engagement": 2048,
+            "followers": 637,
+            "views": 4467,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-30",
+            "reach": 10317,
+            "engagement": 2114,
+            "followers": 650,
+            "views": 4385,
+            "source": "demo"
+        },
+        {
+            "date": "2026-08-31",
+            "reach": 10623,
+            "engagement": 2263,
+            "followers": 663,
+            "views": 4331,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-01",
+            "reach": 10416,
+            "engagement": 2479,
+            "followers": 676,
+            "views": 4313,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-02",
+            "reach": 9780,
+            "engagement": 2735,
+            "followers": 689,
+            "views": 4339,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-03",
+            "reach": 8902,
+            "engagement": 2997,
+            "followers": 702,
+            "views": 4413,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-04",
+            "reach": 8027,
+            "engagement": 3233,
+            "followers": 715,
+            "views": 4536,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-05",
+            "reach": 7403,
+            "engagement": 3411,
+            "followers": 728,
+            "views": 4708,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-06",
+            "reach": 7215,
+            "engagement": 3511,
+            "followers": 741,
+            "views": 4924,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-07",
+            "reach": 7539,
+            "engagement": 3524,
+            "followers": 754,
+            "views": 5175,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-08",
+            "reach": 8329,
+            "engagement": 3456,
+            "followers": 767,
+            "views": 5454,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-09",
+            "reach": 9423,
+            "engagement": 3324,
+            "followers": 780,
+            "views": 5747,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-10",
+            "reach": 10584,
+            "engagement": 3157,
+            "followers": 793,
+            "views": 6044,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-11",
+            "reach": 11561,
+            "engagement": 2989,
+            "followers": 806,
+            "views": 6332,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-12",
+            "reach": 12146,
+            "engagement": 2852,
+            "followers": 819,
+            "views": 6599,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-13",
+            "reach": 12228,
+            "engagement": 2776,
+            "followers": 832,
+            "views": 6835,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-14",
+            "reach": 11818,
+            "engagement": 2781,
+            "followers": 845,
+            "views": 7030,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-15",
+            "reach": 11048,
+            "engagement": 2872,
+            "followers": 858,
+            "views": 7180,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-16",
+            "reach": 10141,
+            "engagement": 3043,
+            "followers": 871,
+            "views": 7280,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-17",
+            "reach": 9347,
+            "engagement": 3274,
+            "followers": 884,
+            "views": 7331,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-18",
+            "reach": 8894,
+            "engagement": 3534,
+            "followers": 897,
+            "views": 7336,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-19",
+            "reach": 8926,
+            "engagement": 3793,
+            "followers": 910,
+            "views": 7300,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-20",
+            "reach": 9465,
+            "engagement": 4014,
+            "followers": 923,
+            "views": 7231,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-21",
+            "reach": 10412,
+            "engagement": 4171,
+            "followers": 936,
+            "views": 7141,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-22",
+            "reach": 11566,
+            "engagement": 4246,
+            "followers": 949,
+            "views": 7041,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-23",
+            "reach": 12677,
+            "engagement": 4235,
+            "followers": 962,
+            "views": 6942,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-24",
+            "reach": 13506,
+            "engagement": 4145,
+            "followers": 975,
+            "views": 6858,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-25",
+            "reach": 13879,
+            "engagement": 4000,
+            "followers": 988,
+            "views": 6799,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-26",
+            "reach": 13739,
+            "engagement": 3830,
+            "followers": 1001,
+            "views": 6776,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-27",
+            "reach": 13151,
+            "engagement": 3667,
+            "followers": 1014,
+            "views": 6795,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-28",
+            "reach": 12290,
+            "engagement": 3545,
+            "followers": 1027,
+            "views": 6863,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-29",
+            "reach": 11401,
+            "engagement": 3491,
+            "followers": 1040,
+            "views": 6980,
+            "source": "demo"
+        },
+        {
+            "date": "2026-09-30",
+            "reach": 10732,
+            "engagement": 3521,
+            "followers": 1053,
+            "views": 7146,
+            "source": "demo"
+        },
+        {
+            "date": "2026-10-01",
+            "reach": 10478,
+            "engagement": 3637,
+            "followers": 1066,
+            "views": 7356,
+            "source": "demo"
+        },
+        {
+            "date": "2026-10-02",
+            "reach": 10734,
+            "engagement": 3828,
+            "followers": 1079,
+            "views": 7603,
+            "source": "demo"
+        },
+        {
+            "date": "2026-10-03",
+            "reach": 11469,
+            "engagement": 4071,
+            "followers": 1092,
+            "views": 7879,
+            "source": "demo"
+        },
+        {
+            "date": "2026-10-04",
+            "reach": 12535,
+            "engagement": 4334,
+            "followers": 1105,
+            "views": 8171,
+            "source": "demo"
+        },
+        {
+            "date": "2026-10-05",
+            "reach": 13702,
+            "engagement": 4585,
+            "followers": 1118,
+            "views": 8467,
+            "source": "demo"
+        },
+        {
+            "date": "2026-10-06",
+            "reach": 14717,
+            "engagement": 4790,
+            "followers": 1131,
+            "views": 8757,
+            "source": "demo"
+        },
+        {
+            "date": "2026-10-07",
+            "reach": 15363,
+            "engagement": 4925,
+            "followers": 1144,
+            "views": 9028,
+            "source": "demo"
+        },
+        {
+            "date": "2026-10-08",
+            "reach": 15514,
+            "engagement": 4974,
+            "followers": 1157,
+            "views": 9268,
+            "source": "demo"
+        },
+        {
+            "date": "2026-10-09",
+            "reach": 15164,
+            "engagement": 4938,
+            "followers": 1170,
+            "views": 9470,
+            "source": "demo"
+        },
+        {
+            "date": "2026-10-10",
+            "reach": 14431,
+            "engagement": 4830,
+            "followers": 1183,
+            "views": 9626,
+            "source": "demo"
+        },
+        {
+            "date": "2026-10-11",
+            "reach": 13527,
+            "engagement": 4674,
+            "followers": 1196,
+            "views": 9733,
+            "source": "demo"
+        },
+        {
+            "date": "2026-10-12",
+            "reach": 12704,
+            "engagement": 4502,
+            "followers": 1209,
+            "views": 9790,
+            "source": "demo"
+        },
+        {
+            "date": "2026-10-13",
+            "reach": 12196,
+            "engagement": 4348,
+            "followers": 1222,
+            "views": 9801,
+            "source": "demo"
+        },
+        {
+            "date": "2026-10-14",
+            "reach": 12159,
+            "engagement": 4244,
+            "followers": 1235,
+            "views": 9770,
+            "source": "demo"
+        },
+        {
+            "date": "2026-10-15",
+            "reach": 12634,
+            "engagement": 4213,
+            "followers": 1248,
+            "views": 9705,
+            "source": "demo"
+        },
+        {
+            "date": "2026-10-16",
+            "reach": 13536,
+            "engagement": 4269,
+            "followers": 1261,
+            "views": 9617,
+            "source": "demo"
+        },
+        {
+            "date": "2026-10-17",
+            "reach": 14677,
+            "engagement": 4408,
+            "followers": 1274,
+            "views": 9517,
+            "source": "demo"
+        },
+        {
+            "date": "2026-10-18",
+            "reach": 15809,
+            "engagement": 4617,
+            "followers": 1287,
+            "views": 9418,
+            "source": "demo"
+        }
+    ],
+    "activity": [
+        {
+            "id": "a_e88f9805e1bdee23",
+            "text": "Enabled hCaptcha login protection",
+            "created_at": "2026-10-18T09:37:42Z"
+        },
+        {
+            "id": "a_8ee13e94fdec177f",
+            "text": "Demo workspace created with example data",
+            "created_at": "2026-10-18T09:23:25Z"
+        }
+    ],
+    "login_attempts": [],
+    "hcaptcha": {
+        "enabled": true,
+        "site_key": "1768abc2-908a-4178-94ce-c84ca7b09f52",
+        "secret_key": "ES_3d69dad959cd41929744904cdc8c9954"
+    }
+}
